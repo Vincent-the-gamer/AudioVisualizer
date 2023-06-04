@@ -1,0 +1,91 @@
+@font-face {
+    font-family: LXGW Wenkai;
+    src: url("/fonts/LXGWWenKai-Regular.ttf");
+}
+
+html {
+    background-color: #101010;   
+    background: radial-gradient( circle, #060606, #010101 );
+    overflow: hidden;
+}
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: LXGW Wenkai;
+}
+
+#title {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5px 0px 0px 10px;
+    color:  #DDD;
+    font-size: 30px;
+}
+
+#warning {
+    font-family: LXGW Wenkai, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    color: #C00;
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+
+#audioname {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #BBB;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+#instructions {
+    position: fixed;
+    bottom: 10%;
+    width: 100%;
+    color: #BBB;
+    text-align: center;
+    font-size: 18px;
+}
+#defaultsong {
+    font-size: 13px;
+    cursor: pointer;
+}
+#defaultsong:hover {
+    text-decoration: underline;
+}
+
+#selector {
+    position: fixed;
+    top: 25px;
+    left: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    font-size: 20px;
+}
+
+li {
+    color: #AAA;
+    cursor: pointer;
+    padding: 4px;
+    transition: all 0.5s;
+}
+
+li.active {
+    color: #FFF;
+}
+
+li:hover {
+    color: #FFF;
+}
