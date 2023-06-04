@@ -15,6 +15,40 @@ body {
     font-family: LXGW Wenkai;
 }
 
+body .github-btn{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    top: 0;
+    right: 20px;
+    border-radius: 7px;
+    border: 3px solid deeppink;
+    transition: all, 0.4s;
+}
+
+body .github-btn:hover{
+    border: 3px solid rgb(247, 255, 20);
+    cursor: pointer;
+}
+
+body .github-btn span img{
+    position: relative;
+    height: 27px;
+    top: 2px;
+}
+
+body .github-btn h3{
+    top: -5px;
+    display: inline;
+    position: relative;
+    color: white;
+    width: fit-content;
+    font-size: 20px;
+    margin: 5px auto;
+    padding: 5px;
+}
+
 #title {
     position: fixed;
     top: 0;
